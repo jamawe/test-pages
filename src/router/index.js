@@ -5,7 +5,7 @@ const AboutView = () => import('../views/AboutView.vue');
 const PageNotFoundView = () => import('../views/PageNotFoundView.vue');
 
 const router = createRouter({
-    history: createWebHistory(import.meta.env.BASE_URL),
+    history: createWebHistory('/test-pages/'),
 
     routes: [
         {
