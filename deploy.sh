@@ -8,6 +8,8 @@ npm run build
 
 # navigate into the build output directory
 cd dist
+# copy index.html and rename it 404.html
+cp index.html 404.html
 
 # place .nojekyll to bypass Jekyll processing
 echo > .nojekyll
