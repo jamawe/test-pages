@@ -1,1 +1,0 @@
-import{H as o}from"./HelloWorld-b1fd3f98.js";import{o as r,c as e}from"./index-3e268b42.js";const m={__name:"PageNotFoundView",setup(t){return(a,c)=>(r(),e(o,{msg:"Sorry 404"}))}};export{m as default};
