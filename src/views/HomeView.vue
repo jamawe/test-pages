@@ -4,5 +4,5 @@ import HelloWorld from '../components/HelloWorld.vue'
 </script>
 
 <template>
-  <HelloWorld msg="HomeView!!!" />
+  <HelloWorld msg="HomeView???" />
 </template>
