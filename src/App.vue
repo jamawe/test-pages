@@ -11,6 +11,10 @@ import { RouterLink, RouterView } from 'vue-router';
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
+  <div>
+    <router-link :to="{ name: 'about' }">about...</router-link>
+    <router-link :to="{ path: '/bla' }">BLA</router-link>
+  </div>
   <RouterView />
 </template>
 
